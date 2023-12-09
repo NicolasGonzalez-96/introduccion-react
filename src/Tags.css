@@ -1,0 +1,11 @@
+/* tags.css */
+.custom-tag {
+    width: 100%; 
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .custom-tag:hover {
+    background-color: #d6d8db;
+  }
+  

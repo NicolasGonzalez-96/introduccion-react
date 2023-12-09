@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 22%;
+  margin-left: 2px;
+  position: relative;
+}
+
+.card img {
+  width: 80%;
+  display: block;
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-body {
+  text-align: center;
+  margin-top: 70%;
+}
+
+.card-body h3 {
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  margin-bottom: 15px;
+}
+
+.card-body .tags {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  width: 80%;
+}
